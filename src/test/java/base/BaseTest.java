@@ -20,20 +20,20 @@ public class BaseTest {
         // driver = new FirefoxDriver();
 
         // setup for ci/cd running
-//        ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.addArguments("--headless");
-//        chromeOptions.addArguments("--disable-gpu");
-//        chromeOptions.addArguments("--windows-size=1920,1880");
-//        chromeOptions.addArguments("--no-sandbox");
-        FirefoxOptions firefoxOptions = new FirefoxOptions();
-        firefoxOptions.addArguments("--headless");
-        firefoxOptions.addArguments("--disable-gpu");
-        firefoxOptions.addArguments("--windows-size=1920,1880");
-        firefoxOptions.addArguments("--no-sandbox");
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("--disable-gpu");
+        chromeOptions.addArguments("--windows-size=1920,1880");
+        chromeOptions.addArguments("--no-sandbox");
+//        FirefoxOptions firefoxOptions = new FirefoxOptions();
+//        firefoxOptions.addArguments("--headless");
+//        firefoxOptions.addArguments("--disable-gpu");
+//        firefoxOptions.addArguments("--windows-size=1920,1880");
+//        firefoxOptions.addArguments("--no-sandbox");
 
         WebDriverManager.chromedriver().setup(); // search in the computer if the driver exists and if not found it will download for us and running
-//        driver = new ChromeDriver(chromeOptions); //send the chromeOptions as paramether for running in ci/cd
-        driver = new FirefoxDriver(firefoxOptions); //send the chromeOptions as paramether for running in ci/cd
+        driver = new ChromeDriver(chromeOptions); //send the chromeOptions as paramether for running in ci/cd
+//        driver = new FirefoxDriver(firefoxOptions); //send the chromeOptions as paramether for running in ci/cd
 
         driver.manage().window().maximize();
 

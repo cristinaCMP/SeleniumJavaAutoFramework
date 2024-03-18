@@ -5,8 +5,6 @@ import helpMethods.ElementMethods;
 import pages.FramePage;
 import objects.FrameObject;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import pages.IndexPage;
 import pages.RegisterPage;
 
@@ -20,11 +18,6 @@ public class FrameTest extends Hooks {
         RegisterPage registerPage = new RegisterPage(driver);
         FramePage framePage = new FramePage(driver);
         indexPage.clickSkipSignIn();
-
-//        WebElement consentPersonalDataButton = driver.findElement(By.className("fc-button-label"));
-//        if (consentPersonalDataButton.isDisplayed()) {
-//            elementMethods.clickElement(consentPersonalDataButton);
-//        }
 
         registerPage.goToFramePage();
         framePage.dealSingleFrame(frameObject);
