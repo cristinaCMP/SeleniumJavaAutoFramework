@@ -31,6 +31,7 @@
             <scope>test</scope>
         </dependency>
 
+<!--        dependency for running ci/cd-->
         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
