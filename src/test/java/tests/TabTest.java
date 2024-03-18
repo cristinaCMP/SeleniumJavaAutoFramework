@@ -3,7 +3,6 @@ package tests;
 import base.Hooks;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import pages.IndexPage;
 import pages.RegisterPage;
 import pages.WindowsPage;
