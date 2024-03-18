@@ -19,11 +19,6 @@ public class TabTest extends Hooks {
 
         indexPage.clickSkipSignIn();
 
-//        WebElement consentPersonalDataButton = driver.findElement(By.className("fc-button-label"));
-//        if (consentPersonalDataButton.isDisplayed()) {
-//            consentPersonalDataButton.click();
-//        }
-
         registerPage.goToWindowsPage();
         windowsPage.dealTab();
         windowsPage.dealWindow();
