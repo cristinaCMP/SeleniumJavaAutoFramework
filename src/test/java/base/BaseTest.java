@@ -23,8 +23,6 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(chromeOptions);
 
-        //set browser to open maximize and on the second monitor
-//        driver.manage().window().setPosition(new org.openqa.selenium.Point(2000, 0));
         driver.manage().window().maximize();
 
         // access browser
