@@ -1,7 +1,6 @@
 package tests;
 
 import base.Hooks;
-import helpMethods.ElementMethods;
 import objects.AlertObject;
 import org.junit.Test;
 import pages.AlertPage;
