@@ -4,7 +4,6 @@ import base.Hooks;
 import helpMethods.ElementMethods;
 import objects.AlertObject;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import pages.AlertPage;
 import pages.IndexPage;
