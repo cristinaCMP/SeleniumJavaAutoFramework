@@ -21,10 +21,10 @@ public class FrameTest extends Hooks {
         FramePage framePage = new FramePage(driver);
         indexPage.clickSkipSignIn();
 
-        WebElement consentPersonalDataButton = driver.findElement(By.className("fc-button-label"));
-        if (consentPersonalDataButton.isDisplayed()) {
-            elementMethods.clickElement(consentPersonalDataButton);
-        }
+//        WebElement consentPersonalDataButton = driver.findElement(By.className("fc-button-label"));
+//        if (consentPersonalDataButton.isDisplayed()) {
+//            elementMethods.clickElement(consentPersonalDataButton);
+//        }
 
         registerPage.goToFramePage();
         framePage.dealSingleFrame(frameObject);

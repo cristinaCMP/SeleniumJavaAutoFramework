@@ -23,10 +23,10 @@ public class AlertTest extends Hooks {
 
         indexPage.clickSkipSignIn();
 
-        WebElement consentPersonalDataButton = driver.findElement(By.className("fc-button-label"));
-        if (consentPersonalDataButton.isDisplayed()) {
-            elementMethods.clickElement(consentPersonalDataButton);
-        }
+//        WebElement consentPersonalDataButton = driver.findElement(By.className("fc-button-label"));
+//        if (consentPersonalDataButton.isDisplayed()) {
+//            elementMethods.clickElement(consentPersonalDataButton);
+//        }
 
         registerPage.goToAlertPage();
 
