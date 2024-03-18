@@ -24,6 +24,7 @@ public class TabTest extends Hooks {
 //            consentPersonalDataButton.click();
 //        }
 
+
         registerPage.goToWindowsPage();
         windowsPage.dealTab();
         windowsPage.dealWindow();
