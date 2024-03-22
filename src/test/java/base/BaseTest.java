@@ -14,8 +14,6 @@ public class BaseTest {
         // run with your browser locally
         // System.setProperty("webdriver.firefox.driver","src/test/resources/Firefox.exe");
         // driver = new FirefoxDriver();
-        // driver = new FirefoxDriver();
-        // driver = new FirefoxDriver();
 
         // setup for ci/cd running
         ChromeOptions chromeOptions = new ChromeOptions();
