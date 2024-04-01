@@ -1,0 +1,1 @@
+This is a practice project used on Pentalog Automation Workshop 2022 for Automation Testing using Selenium. The tests are using Junit and are running in headless mode, using github actions integration. 
